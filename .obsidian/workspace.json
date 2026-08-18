@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "94e0a7c996757b03",
+    "type": "split",
+    "children": [
+      {
+        "id": "4134d0608a127c2d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "49acea29eedeba9d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5698d909d7b24cdc",
+    "type": "split",
+    "children": [
+      {
+        "id": "1fe8d96523ab38a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "47f3f679e8337676",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "bc959235c4c20c02",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "506752c8040fa5e2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 324.70001220703125
+  },
+  "right": {
+    "id": "1ea7e2da67341c4a",
+    "type": "split",
+    "children": [
+      {
+        "id": "7655d22c8c225ce2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "78efb083d80ed03f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "analysis/proofs.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "efa3c25f740b0034",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "analysis/proofs.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "fb3098a79ad19927",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d4eecf2de360dba3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "aa79884c7739c5da",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "analysis/proofs.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "47f3f679e8337676",
+  "lastOpenFiles": [
+    "Year_final_2023.pdf",
+    "year_final_2022.pdf",
+    "analysis/proofs.md",
+    "analysis/PHY_1203/Crystal_Structure_SolidState_questions.md",
+    "analysis/PHY_1203/index.md",
+    "analysis/MATH_1204/Series_Taylor_Maclaurin/Convergence_Tests.md",
+    "analysis/MATH_1204/Series_Taylor_Maclaurin_questions.md",
+    "analysis/MATH_1204/Differential_Equations/Linear_Bernoulli_Separable.md",
+    "analysis/MATH_1204/Differential_Equations_questions.md",
+    "analysis/MATH_1204/index.md",
+    "analysis/CSE_1201/C_Structures_Files_Preprocessor/Errors_Memory_Flowcharts.md",
+    "analysis/CSE_1201/C_Structures_Files_Preprocessor_questions.md",
+    "analysis/CSE_1201/C_Fundamentals_Tokens_questions.md",
+    "analysis/PHY_1203/Crystal_Structure_SolidState/Bragg_BandTheory.md",
+    "analysis/PHY_1203/Crystal_Structure_SolidState/BCC_FCC_Density.md",
+    "analysis/PHY_1203/Crystal_Structure_SolidState/Planes_Sketch_Indices.md",
+    "analysis/ENG_1205/English_Writing/Application_and_CV_Writing.md",
+    "analysis/ENG_1205/English_Grammar/Correct_Form_of_Verbs.md",
+    "analysis/ENG_1205/English_Comprehension/Precis_Summary.md",
+    "analysis/PHY_1203/Crystal_Structure_SolidState/Interplanar_Spacing.md",
+    "analysis/ENG_1205/English_Writing/Amplification.md",
+    "analysis/PHY_1203/Crystal_Structure_SolidState/Miller_Indices.md",
+    "analysis/ENG_1205/English_Writing/Dialogue_Writing.md",
+    "analysis/PHY_1203/Crystal_Structure_SolidState/Packing_Fraction.md",
+    "analysis/ENG_1205/English_Writing/Report_Writing.md",
+    "analysis/PHY_1203/Physical_Optics/Malus_Polarized_Unpolarized.md",
+    "analysis/MATH_1204/Numerical_Methods/Theory_Error.md",
+    "analysis/PHY_1203/Crystal_Structure_SolidState",
+    "analysis/PHY_1203/Physical_Optics",
+    "analysis/PHY_1203/Oscillations_Waves",
+    "analysis/PHY_1203/Thermodynamics_Heat",
+    "analysis/CSE_1202/Sequential_Logic_Memory",
+    "analysis/CSE_1202/Combinational_Logic",
+    "analysis/CSE_1202/Number_Systems_BooleanAlgebra",
+    "analysis/ENG_1205/English_Writing",
+    "analysis/ENG_1205/English_Grammar"
+  ]
+}

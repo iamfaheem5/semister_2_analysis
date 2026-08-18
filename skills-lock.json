@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "exam-questions-analyzer": {
+      "source": "iamfaheem5/exam-questions-analyzer",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "9d689d85511a167367bba63b56087bab5182442de7dafefb1f0abd8122f10844"
+    }
+  }
+}

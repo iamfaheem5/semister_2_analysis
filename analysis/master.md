@@ -1,0 +1,564 @@
+# Master File — Complete Question Bank (2020–2023)
+
+> Raw indexed dump by year, then by canonical topic within that year. Verbatim question text, marks in brackets. No answers, no commentary. Most recent year first. Uses same canonical topic names as per-topic files.
+
+## 2023
+
+### C_Fundamentals_Tokens
+- [4 marks] "C language is well suited for structured programming", explain why? (CSE 1201 Q1a)
+- [3 marks] What is a token? What are different types of tokens available in C language? (CSE 1201 Q1b)
+
+### C_Operators_ControlFlow
+- [4 marks] Evaluate: i) 22 + 3 < 6 && ~5 || 22 == 7 && 22 - 2 > +5 ii) a + 2 > b || ~c && a == d *a - 2 <= c, Where a=11, b=6, c=0, d=7 (CSE 1201 Q1c)
+- [3 marks] Using bitwise operator write a program in C to check whether a number is even or odd. (CSE 1201 Q2a)
+- [3 marks] Differentiate between the entry-controlled loop and exit-controlled loop. (CSE 1201 Q2b)
+- [5 marks] Explain syntax of switch case. Write menu-driven C program using switch to take 2 integers and print sum/difference/product. (CSE 1201 Q2c)
+- [3 marks] Calculate output: int a=100,b=200,c=300; int x=(a>b)?((a>c)?a:c):((b>c)?b:c); printf("%d",x); (CSE 1201 Q2d)
+- [6 marks] Write syntax and draw flowchart for while/do-while/for. (CSE 1201 Q4a)
+- [4 marks] Re-write for( i=1;i<=5;i++) for(j=1;j<=i;j++) printf("%d",i); with do-while only. (CSE 1201 Q4b)
+- [4 marks] Define switch and goto with examples. (CSE 1201 Q4c)
+- [2 marks] int array [] = {6,7,8,9,0,1,2,3,4,5,6,7,8,9,10}; int *p=array+5; printf("%d\n",p[3]); (CSE 1201 Q5c)
+
+### C_Arrays_Pointers_Memory
+- [3 marks] What will be output? printArray with sizeof(arr) 5 elems 10,20,30,40,50; sizeof in main vs function. (CSE 1201 Q3b)
+- [5 marks] Define Array. Explain declaration of various kinds of Arrays with example. (CSE 1201 Q3a)
+- [4 marks] Write C program to find largest value in array by using function. (CSE 1201 Q3c)
+- [2 marks] Mention rules to pass an array to a function. (CSE 1201 Q3d)
+- [3 marks] Explain null pointer and void pointer with example. (CSE 1201 Q5b)
+- [3 marks] What is difference between static and dynamic memory allocation? (CSE 1201 Q6c)
+- [4 marks] Write program using pointer to search smallest element in array. (CSE 1201 Q6b)
+- [4 marks] Write basic structure of calloc(), malloc(). Which is more preferable and why? (CSE 1201 Q5a) — also covers allocation
+- [6 marks] Compare break and continue. Write C program to print all even numbers from 120 to 0 except 14 and 98. (CSE 1201 Q5d)
+
+### C_Structures_Files_Preprocessor
+- [4 marks] Write C program to take details (id, DOB, position) of n employees in structure array Employee and show details. (CSE 1201 Q6a)
+- [3 marks] Write function that displays solid square of asterisk side 4: **** / **** / **** / **** (CSE 1201 Q6d)
+- [4 marks] Write C program to define Function-like-Macro to find maximum of two numbers. (CSE 1201 Q7a)
+- [4 marks] Write single statements: open previousAC.dat for reading ofPtr, transferAC.dat tfPtr, newAC.dat for writing nfPtr, read record accountNum/name/currentBalance. (CSE 1201 Q7b)
+- [3 marks] Output: #define MAC (10+(80/2)*2) #define CAL (5+(6*2)-2) A=45; A=MAC+CAL; printf. (CSE 1201 Q7c)
+- [3 marks] Why use free() and realloc() in dynamic allocation? Explain. (CSE 1201 Q7d)
+
+### Number_Systems_BooleanAlgebra
+- [4 marks] Given X=1010100 Y=1000011 perform X-Y using 2's and 1's complement. (CSE 1202 Q1a)
+- [6 marks] Convert binary to indicated bases i. 10110001101.111100000110 to octal ii. 0011000001101.1101 to hex iii. 110111011.001010100 to octal (CSE 1202 Q1b)
+- [4 marks] Explain universal gate with examples. (CSE 1202 Q1c)
+- [4 marks] Simplify with Karnaugh: F(w,x,y,z)= Σm(2,4,10,12,14)+ Σd(0,1,5,8) (CSE 1202 Q2a)
+- [2 marks] Define prime and Essential prime implicants. (CSE 1202 Q2b)
+- [6 marks] Determine prime/essential implicants F(w,x,y,z)= Σm(1,4,6,7,8,9,10,11,15) using Quine-McCluskey. (CSE 1202 Q2c)
+- [2 marks] Design AND, Ex-OR gate by using NAND gate. (CSE 1202 Q2d)
+- [2 marks] Define Minterms, Maxterms, SOP, POS with example. (CSE 1202 Q3a)
+- [4 marks] Define duality. Simplify i) AB+ABC+A'B+AB'C ii) A+A'B+AB'C+AB'C'D iii) AC'+A'B+AB'C+BC (CSE 1202 Q3b)
+- [5 marks] Difference canonical vs standard. Convert F(A,B,C)=Σ(1,4,5,6,7) F(A,B,C,D)=Σ(0,2,6,11,13,14) to other canonical. (CSE 1202 Q3c)
+- [3 marks] Express F=XY+X'Z in product of maxterm. (CSE 1202 Q3d)
+
+### Combinational_Logic
+- [5 marks] Construct 4x16 decoder with 3x8 decoder. (CSE 1202 Q4a)
+- [5 marks] Use PROM to implement A(x,y,z)=Σm(1,2,4,6) B=Σm(0,1,6,7) C=Σm(2,6) D=Σm(1,2,3,5,7) (CSE 1202 Q4b)
+- [4 marks] Compare Asynchronous vs Synchronous counter. Design 3 bits ripple counter. (CSE 1202 Q4c)
+- [3 marks] Define combinational logic and classify. (CSE 1202 Q5a)
+- [3 marks] Design 4-bit subtractor using full adder. (CSE 1202 Q5b)
+- [4 marks] What is comparator? Implement 2-bit comparator. (CSE 1202 Q5c)
+- [4 marks] Implement full adder with decoder and two OR gates. (CSE 1202 Q5d)
+- [5 marks] Define mux/demux. Implement 8 to 1 line multiplexer. (CSE 1202 Q6a)
+- [5 marks] Combinational circuit F1(A,B,C)=Σ(3,5,6,7) F2=Σ(0,2,4,7) Implement with PLA 3 input 4 product 2 outputs. (CSE 1202 Q6b)
+
+### Sequential_Logic_Memory
+- [4 marks] Define sequential circuit and described operation of JK flip-flop with figure. (CSE 1202 Q6c)
+- [4 marks] Differentiate Static RAM and Dynamic RAM. (CSE 1202 Q7a)
+- [6 marks] Define Shift Register. Design synchronous counter sequence 000,010,101,110 (CSE 1202 Q7b)
+- [4 marks] Show logical construction of 4x4 RAM. (CSE 1202 Q7c)
+
+### Integration_Techniques_Applications
+- [6 marks] Evaluate i) ∫(sin^{-1}x)^2 dx ii) ∫ sin^4 x cos^3 x dx (MATH Q1a)
+- [3 marks] Evaluate improper ∫_1^∞ 1/√x dx. (MATH Q1c)
+- [5 marks] Solve: (x^2+3xy^2)dx+(y^3+3x^2y)dy=0 — also in DiffEq but integration form.
+- [4 marks] Expand log(1+x) in power of x by Maclaurin. (MATH Q3a)
+- [5 marks] Show arc length of parabola r(1+cosθ)=2 from 0 to π/2 is √2+ln(1+√2) (MATH Q3c)
+
+### Differential_Equations
+- [5 marks] Solve: dy/dx = y/x + tan y/x. (MATH Q1b)
+- [5 marks] Solve: (x^2+3xy^2)dx+(y^3+3x^2y)dy=0. (MATH Q2a)
+- [5 marks] Find DE of curves y=e^x(A cos x+B sin x). State order/degree. (MATH Q2b)
+- [6 marks] Solve dy/dx+1/x y = x√y. (MATH Q4a)
+- [6 marks] Bacteria rate proportional, triples in 5 hours, how many in 10 hours? (MATH Q4b)
+- [2 marks] Define Integrating factor. (MATH Q4c)
+- [3 marks] State and prove necessary condition for exactness Mdx+Ndy=0 (MATH Q7b)
+- [9 marks] Solve (any three) i) sin^{-1}(dy/dx)=x+y ii) x√(1-y^2)dx+y√(1-x^2)dy=0 iii) y(1+xy)dx+x(1-xy)dy=0 iv) dy/dx+(y^2+y+1)/(x^2+x+1)=0 (MATH Q7c)
+- [2 marks] Define order and degree. (MATH Q7a)
+- [4 marks] Expand 2x^3+7x^2+x-6 in powers of (x-2) by Taylor. (MATH Q2c)
+
+### Series_Taylor_Maclaurin
+- [4 marks] Expand log(1+x) in power of x by Maclaurin theorem. (MATH Q3a)
+- [5 marks] What is Taylor's infinite series? Find first three terms of Taylor for ln x at x=1 (MATH Q3b)
+- [2 marks] If Σ a_n convergent then lim a_n=0 (MATH Q6a)
+- [6 marks] Test convergence (any two): i) Σ n^2/(5n^2+4) ii) Σ 1/(n^2+1) iii) Σ ((2n+3)/(3n+2))^n (MATH Q6b)
+- [6 marks] Find general solution dy/dx+py=Q where P,Q functions of x. Hence solve (1+x^2)dy/dx+y=tan^{-1}x (MATH Q6c)
+
+### Numerical_Methods
+- [7 marks] Using Taylor's series method solve: dy/dx=x^2-y With y(0)=1 numerically up to x=0.2 h=0.1 (MATH Q5a)
+- [7 marks] Find y(2.2) using Euler's method from dy/dx=-xy^2; y(2)=1 h=0.05 (MATH Q5b)
+
+### Thermodynamics_Heat
+- [5 marks] What is irreversible process? Derive work done during isothermal expansion. (PHY Q1a)
+- [6 marks] What is entropy, demonstrate constant during reversible? (PHY Q1b includes 2+4)
+- [3 marks] Gas at 80°C 50 atm adiabatically expanded to 10x volume. γ=1.4 calculate resulting P,T. (PHY Q1c)
+- [4 marks] Define i) Joule's equivalent ii) thermodynamic function iii) thermodynamic system iv) internal energy (PHY Q3a)
+- [6 marks] What is entropy? Show entropy increases irreversible whereas constant reversible. (PHY Q3b)
+- [4 marks] Motor tyre pumped to 2 atm at 15°C suddenly bursts. Calculate drop in temperature γ=1.4. (PHY Q3c)
+- [6 marks] Prove differential equation governing two-body oscillations identical to SHM. (PHY Q7a)
+- [5 marks] What is degree of freedom? Prove Cp-Cv=R (PHY Q7b includes 1+4)
+
+### Oscillations_Waves
+- [4 marks] What are differences between polarized light and unpolarized? — actually optics but wave section includes energy flow.
+- [6 marks] Two-body oscillations proves SHM (PHY Q7a)
+- [3 marks] Source sound frequency 512hrz amplitude 0.25cm energy flow across cm^2 per sec velocity 340 density 0.00129g/cm^3 (PHY Q6c)
+- [3 marks] SHM body max acceleration 8π m/s² and max speed 1.6 m/s find period T amplitude A. (PHY Q7c)
+
+### Physical_Optics
+- [4 marks] Differences polarized vs unpolarized light? (PHY Q2a)
+- [6 marks] From Newton's rings prove radius mth dark proportional √wavelength. (PHY Q2b)
+- [4 marks] Define refractive index. Newton's rings diam eighth 0.4cm third 0.2cm R=101cm calculate λ. (PHY Q2c)
+- [5 marks] Prove fringe width double-slit λD/a. (PHY Q4a)
+- [6 marks] What is Fresnel Biprism how does it work? Differences Fresnel vs Fraunhofer diffraction? (PHY Q4b)
+- [3 marks] Sodium λ=589nm screen 0.8m bright fringes 0.35cm apart slit separation? (PHY Q4c)
+
+### Crystal_Structure_SolidState
+- [6 marks] Explain Band Theory with diagram? Differences n-type vs p-type? (PHY Q5a 3+3)
+- [5 marks] How determine inter-planar spacing given λ and diffraction angle? Derive equation. (PHY Q5b)
+- [3 marks] Sodium BCC density 9.6×10² kg/m^3 atomic weight 23 calculate lattice constant. (PHY Q5c)
+- [4 marks] Define Miller indices. Important features. (PHY Q6a)
+- [7 marks] What is diffraction of X-rays by crystal planes? Derive Bragg's law. (PHY Q6b 2+5)
+
+### English_Comprehension
+- [15 marks] Passage Philadelphia (3,000 murals) — 1a choose correct answer 5 MCQs, 1b answer questions 5, 1c summary 5. (ENG Part A)
+
+### English_Grammar
+- [5 marks] Fill gaps correct form of verbs Air (a)__ (be) ... 10 gaps. (ENG Q2)
+- [5 marks] Change indirect speech teacher/students dialogue. (ENG Q3)
+- [5 marks] Fill blanks preposition 10 items. (ENG Q4)
+- [5 marks] Transform any five as directed. (ENG Q5)
+- [5 marks] Fill gaps articles a/an/the/× 8 items. (ENG Q6)
+
+### English_Writing
+- [7 marks] Email to friend congratulating fully funded scholarship. (ENG Q7)
+- [8 marks] Complete CV for post of Computer Engineer. (ENG Q8)
+- [7 marks] Report Food Adulteration or Cutting down Trees. (ENG Q9)
+- [8 marks] Paragraph Role of Students in Social Reconstruction or Bad Effects of Poly bags. (ENG Q10)
+
+## 2022
+
+### C_Fundamentals_Tokens
+- [4 marks] Define Program. Briefly explain different data types in C. (CSE 1201 Q1a)
+- [4 marks] Write program in C that takes minutes as input converts to hours and seconds. (CSE 1201 Q1b)
+
+### C_Operators_ControlFlow
+- [4 marks] Analyze program int c,a=10,b; b=++a; a=b; c=a; printf("C is %f",c); Is it possible to execute every line without errors? If not make necessary changes. (CSE 1201 Q1c)
+- [4 marks] Determine value of logical expressions a=-5 b=1 c=5; i) b>=1 && c < a || b<a ii) a<b && a<c (CSE 1201 Q1d)
+- [4 marks] What do you mean by scope, visibility and life-time of variables? (CSE 1201 Q2b)
+- [2 marks] Differentiate entry controlled vs exit controlled loop? (CSE 1201 Q2c)
+- [2 marks] How syntax errors differ from logical errors? Which more difficult? (CSE 1201 Q2d)
+- [4 marks] Define Control Statements. Briefly describe conditional statements with examples. (CSE 1201 Q4a)
+- [4 marks] What is Infinity Loop? Write program to print sequence 5,25,125,625,3125,15625 (CSE 1201 Q4b)
+- [6 marks] Compare break and continue with examples. Write program to print all even numbers from 120 to 0 except 14 and 98. (CSE 1201 Q4c)
+
+### C_Arrays_Pointers_Memory
+- [6 marks] What is output when code fragments executed? i) int x=(int)31.5/(int)6.3; printf ... ii) int *pc,c; c=22; ... *pc=2; ... Assume memory 268678 (CSE 1201 Q2a)
+- [6 marks] What is output? i) int x[2]={1,2}; int *ptr; ptr=x; ++(*ptr); ... ii) int x=6,y=4,z,*p1,*p2; p1=&x, p2=&y; z=x; x=y; y=z; ... (CSE 1201 Q3c)
+- [3 marks] State benefits of pointer. Show memory representation int m=0,n=20; int *ptr=&m; n=*ptr; (CSE 1201 Q3a)
+- [4 marks] What arithmetic operators permitted on pointers? Are *p++ and ++*p same? Justify. (CSE 1201 Q3b)
+- [3 marks] Define Array with example. How to initialize 1D and 2D arrays? (CSE 1201 Q5a)
+- [5 marks] Write C program to display pattern when n=5: ***** / **** / **0** / **** / ***** (CSE 1201 Q5b)
+- [4 marks] Determine output of C program int i,j,n=8,a[10]; for(i=1;i<=n;i++) a[i]=0; for(j=1;j<=i;j++) a[i]=a[i]+i+j; printf ... (CSE 1201 Q5c)
+- [2 marks] Explain different types of errors in programming language. (CSE 1201 Q5d)
+
+### C_Structures_Files_Preprocessor
+- [5 marks] Define file. Explain creating, opening and closing text file in C with example. (CSE 1201 Q6a)
+- [3 marks] What is importance of file closing? (CSE 1201 Q6b)
+- [6 marks] File sorting.txt contains integers. Write program read, sort ascending, save to sorted.txt. (CSE 1201 Q6c)
+- [5 marks] Distinguish variable vs pointer variable. Write C program to print n elements stored in array using pointer. (CSE 1201 Q7a)
+- [4 marks] Write program to take details (id,name,mark) of n students in structure array Student and show details. (CSE 1201 Q7b)
+- [5 marks] Blood donor file patient name, location, date. Write program to create file and store information. (CSE 1201 Q7c)
+
+### Number_Systems_BooleanAlgebra
+- [4 marks] i. Convert Gray 11010011 to binary ii. Convert decimal 237.95 to BCD. (CSE 1202 Q1a 2+2)
+- [4 marks] Implement two input X-OR gate using only two input NOR gates. (CSE 1202 Q1b)
+- [4 marks] Simplify: Y=(A+B)(A+AB')C+A'B+ABC (CSE 1202 Q1c)
+- [2 marks] Find 9's complement of (415.69)10. (CSE 1202 Q1d)
+- [3 marks] Define: I) fan-out II) Noise margin III) Propagation delay (CSE 1202 Q2a)
+- [4 marks] Implement Exclusive OR by any Universal gate. (CSE 1202 Q2b)
+- [4 marks] Simplify Boolean to minimum literals and draw diagram. i) xyz+x'z+yz+x'yz ii) (x'+y)(x+z)+xz (CSE 1202 Q2c)
+- [3 marks] Simplify with Karnaugh F(x,y,z)=Σ(1,3,6,7) and d(x,y,z)=Σ(0,2,5). (CSE 1202 Q2d)
+
+### Combinational_Logic
+- [3 marks] Write output expressions of 3-bit comparator. (CSE 1202 Q3a)
+- [6 marks] Derive simplified output expressions for BCD to Excess-3 code converter. (CSE 1202 Q3b)
+- [5 marks] Construct 1x16 De-multiplexer with 1x4 De-multiplexers and describe briefly. (CSE 1202 Q3c)
+- [4 marks] Draw block diagram with truth table of 4x16 decoder using two 3x8 decoders. (CSE 1202 Q4b)
+- [5 marks] Implement function using 8x1 Multiplexer: F(A,B,C,D)=Σm(0,1,3,4,8,9,15) (CSE 1202 Q4c)
+- [4 marks] Draw block diagram and truth table of BCD to 7 segment display. (CSE 1202 Q6b)
+- [2 marks] How does priority encoder differ from ordinary encoder? (CSE 1202 Q6c)
+- [5 marks] Implement 3 bit Comparator circuit. (CSE 1202 Q6d)
+
+### Sequential_Logic_Memory
+- [2 marks] Differentiate between Latch and flip-flop. (CSE 1202 Q5a)
+- [4 marks] Describe SR flip-flop with figure. (CSE 1202 Q5b)
+- [4 marks] Implement MOD-10 counter and explain its functions. (CSE 1202 Q5c)
+- [4 marks] Show block diagram of IC 74193 and explain functional description. (CSE 1202 Q5d)
+- [3 marks] Draw circuit diagram of full adder using half adders and OR gate. (CSE 1202 Q6a)
+- [6 marks] Design synchronous counter sequence 000,010,101,110 (CSE 1202 Q7a)
+- [6 marks] Use PROM to implement A(x,y,z)=Σm(1,2,4,6) B=Σm(0,1,6,7) C=Σm(2,6) D=Σm(1,2,3,5,7) (CSE 1202 Q7b)
+- [2 marks] Draw internal logic diagram of 32x8 ROM. (CSE 1202 Q7c)
+- [2 marks] Difference between combinational and sequential circuit? (CSE 1202 Q4a)
+
+### Thermodynamics_Heat
+- [3 marks] State and explain first and second laws of thermodynamics. (PHY Q1a)
+- [7 marks] What are Isothermal and Adiabatic processes? Establish relation between pressure and volume in adiabatic process. (PHY Q1b)
+- [4 marks] Quantity of air at 27°C atmospheric suddenly compressed to half original volume. Find final T,P (γ=1.4) (PHY Q1c)
+- [3 marks] Show adiabatic curves are γ times steeper than isothermal curves. (PHY Q2a)
+- [7 marks] What is Carnot cycle? Describe each stage and find efficiency. (PHY Q2b)
+- [4 marks] Calculate molecular kinetic energy of 1 gm hydrogen at 50°C molecular weight 2 R=8.3×10^7 ergs/gm-mol. (PHY Q2c)
+- [3 marks] Define any three: (i) Equipartition (ii) Entropy (iii) Coherent source (iii) damped harmonic (iv) Huygen's (v) double refraction. (PHY Q7a)
+- [7 marks] What is Brewster's law? From Brewster show reflected and refracted rays perpendicular. (PHY Q7b)
+- [4 marks] Mass of gas at 80°C 50 atm adiabatically expanded to 10 times initial volume ratio 1.4 calculate resulting pressure and temperature. (PHY Q7c) — same as 2023 Q1c variant
+
+### Oscillations_Waves
+- [3 marks] Define SHM and explain its characteristics. (PHY Q3a)
+- [7 marks] Derive expression for differential equation of SHM and find solution. (PHY Q3b)
+- [4 marks] Two SHM y1=2 sin(ωt+π/6) and y2=3 sin(ωt+π/3) Calculate amplitude and phase constant of resultant. (PHY Q3c)
+- [4 marks] Explain Phase velocity and Group velocity. (PHY Q6a)
+- [6 marks] Obtain expression for differential equation of plane progressive wave. (PHY Q6b)
+- [4 marks] Verify harmonic wave function Ψ=A sin(kx-ωt) is solution of 1D wave equation. (PHY Q6c)
+
+### Physical_Optics
+- [4 marks] Mass gas problem also includes; optics: Define crystal lattice ... — optics separation not needed.
+- [3 marks] Define any three includes coherent source etc. (PHY Q7a part)
+
+### Crystal_Structure_SolidState
+- [3 marks] Define crystal lattice, unit cell, coordination number. (PHY Q4a)
+- [7 marks] Show for cubic crystal d_hkl = a/√(h²+k²+l²). (PHY Q4b)
+- [4 marks] Sketch planes (011),(0¯10),(110),(¯111) (PHY Q4c)
+- [3 marks] Define: (i) Bravais Lattice (ii) Primitive Cell (iii) Miller index (PHY Q5a)
+- [7 marks] Show for bcc and fcc lattice constants a_bcc=4r/√3 and a_fcc=4r/√2. (PHY Q5b)
+- [4 marks] Lattice plane cuts intercepts a,2b,3c determine Miller indices. (PHY Q5c)
+
+### Integration_Techniques_Applications
+- [7 marks] Find area inside circle r=3sinθ and outside cardioid r=1+sinθ. (MATH Q7a)
+- [5 marks] Find length of one arch of cycloid x=r(θ-sinθ), y=r(1-cosθ). (MATH Q7b)
+- [4 marks] Find Maclaurin Series expansion f(x)=e^x (MATH Q7c)
+- [8 marks] Curve C x=t², y=t³-3t Show C has two tangents at (3,0) find equations; find points horizontal/vertical; Sketch. (MATH Q1a)
+- [6 marks] Solve IVP dy/dx+y=x, y(0)=4. (MATH Q1b)
+- [8 marks] Test convergence (any two) (i) Σ 1/√(n+1)+√n (ii) Σ 1.3.5...(2n-1)/n^4 (iii) Σ 4.7.10...(3n+1)/1.2.3...n x^n (MATH Q2a)
+- [6 marks] Bottle orange juice 2°C warm 5°C in 5 min room 23°C How warm if left 15 min? (MATH Q2b)
+- [4 marks] Quadratic approximation f(x)=cos x near 0. (MATH Q3a)
+- [5 marks] Ellipse x²+4y²=16 rotated about minor axis oblate spheroid find surface area. (MATH Q3b)
+- [5 marks] Population model dP/dt=P-144P², P(0)=7 behavior as t→∞. (MATH Q3c)
+- [7 marks] Taylor series method solve dy/dx=x+y y(1)=0 numerically up to 1.2 h=0.1 (MATH Q4a)
+- [7 marks] dy/dx=(y-x)/(y+x); y(0)=1 Find y for x=0.1 by Euler's method. (MATH Q4b)
+- [5 marks] Define order and degree — also in Differential_Equations duplicate.
+- [9 marks] Evaluate I) ∫0^{π/2} cos³x(sin x)^{1/2} dx II) ∫_{-∞}^{∞} x/(x²+1) dx III) ∫0^∞ x e^{-x²} dx 3×3 (MATH Q6a)
+- [5 marks] Evaluate ∫0^π sin x dx 8 strips Simpson's rule. (MATH Q6b)
+
+### Differential_Equations
+- [2 marks] Define order and degree (MATH Q5a)
+- [3 marks] Solve dy/dx=(4x+y+1)² (MATH Q5b)
+- [9 marks] Define homogeneous. Solve dy/dx=y/x+cos y/x (MATH Q5c 2+7)
+
+### Series_Taylor_Maclaurin
+- (Included above)
+### Numerical_Methods
+- (Included above)
+
+### English_Comprehension
+- [15 marks] Passage internationalization of higher education — MCQs 5, answer questions 5, summary 5. (ENG Part A)
+
+### English_Grammar
+- [5 marks] Fill gaps correct form of verbs Parents (a)__(be)... (ENG Q2)
+- [5 marks] Transform any five as directed (complex/simple/compound). (ENG Q3)
+- [5 marks] Use appropriate prepositions Patriotism is quality inherent (a)__ man ... 10 gaps. (ENG Q4)
+- [5 marks] Correct any five sentences: It is she but not I am guilty ... (ENG Q5)
+- [5 marks] Fill gaps with articles Industry is (a)---key ... 10 gaps. (ENG Q6)
+
+### English_Writing
+- [8 marks] Application to Managing Director Rangs Electronics for Computer Engineer + CV. (ENG Q7)
+- [7 marks] E-mail to friend condoling on his/her father's death. (ENG Q8)
+- [7 marks] Dialogue between two friends for strengthening cyber security. (ENG Q9)
+- [8 marks] Paragraph on "4th Industrial Revolution" or "Bad Effects of Unplanned Urbanization". (ENG Q10)
+
+## 2021
+
+### C_Fundamentals_Tokens
+- [5 marks] C supports five different basic data types. Expand & Explain. (CSE 1201 Q1a)
+- [5 marks] Write short notes on local, global and static variables. Features of static local and static global? (CSE 1201 Q1b)
+- [4 marks] Write definitions Token, Keyword, Identifier with examples. (CSE 1201 Q1c)
+
+### C_Operators_ControlFlow
+- [4 marks] Differentiate behaviors of keywords using code: break, continue, case, default (CSE 1201 Q2a)
+- [6 marks] What will be output for programs: i) Int main a=10 b=25 a=b++ +a++; ... ii) a=0,b=1; b=5||2; ... iii) Int* pc,c; c=22; ... pc=&c; ... (CSE 1201 Q2b)
+- [4 marks] Explain syntax switch case. Write menu-driven C program switch to take 2 integers print sum/difference/product. (CSE 1201 Q2c)
+- [4 marks] What do you mean by operator precedence? What is associativity of arithmetic operator? (CSE 1201 Q3a)
+- [3 marks] Write structures of statements: i. for ii. do-while (CSE 1201 Q3b)
+- [5 marks] What is output? I) Int A=1 B=2; if((A==1)||(B==2)&&(B==0)) ... II) Int n; printf Enter n; scanf; if(n<10) ... else if(n>5) ... Based on II i) output if 0? ii) 15? iii) 7? iv) values that output "Not inserting"? (CSE 1201 Q3d)
+- [3 marks] Differentiate entry-controlled vs exit-controlled loop. (CSE 1201 Q4a)
+- [5 marks] Write loop statement that shows output 1 / 2 1 / 3 2 1 / 4 3 2 1 / 5 4 3 2 1 (CSE 1201 Q4b)
+- [3 marks] What are differences between else-if ladder and switch case? (CSE 1201 Q4d)
+
+### C_Arrays_Pointers_Memory
+- [4 marks] What, if anything, prints when C statements performed? char s1[50]="FOELT", s2[50]="CSE", s3[50]; i. printf("%s",strcpy(s3,s2)); ii. strcat(strcpy(s3,s1),"and"),s2) etc; correct errors. (CSE 1201 Q5a)
+- [4 marks] Write program using pointer to search smallest element in array. (CSE 1201 Q5b)
+- [3 marks] Difference static memory allocation vs dynamic? (CSE 1201 Q5c)
+- [3 marks] Differences between malloc() and calloc()? Which more preferable? (CSE 1201 Q5d)
+- [3 marks] Why string is called character-type array? How to write program that takes "Albert" as input? (CSE 1201 Q6a)
+- [6 marks] What is array? How to declare? Write program to find average of four numbers using array. (CSE 1201 Q6b)
+- [5 marks] Write for-loop statements to compute i) 1+2+3+...+n ii) 1²+2²+...+n² (CSE 1201 Q6c)
+
+### C_Structures_Files_Preprocessor
+- [2 marks] How can you read and write two float values in a file? (CSE 1201 Q3c)
+- [4 marks] Define preprocessor directive. What will preprocessor do? (CSE 1201 Q7a)
+- [6 marks] Write single statements open previousAC.dat for reading ofPtr etc 6 files, read record accountNum/name/currentBalance etc. (CSE 1201 Q7b)
+- [4 marks] Write C program to define Function-like-Macro to find minimum of two numbers. (CSE 1201 Q7c)
+- [3 marks] Write function that displays solid square asterisk side 4. (CSE 1201 Q4c)
+
+### Number_Systems_BooleanAlgebra
+- [3 marks] Simplify expression: (A+ B')'.B.(A+C'). (CSE 1202 Q2a)
+- [5 marks] Minimize using Karnaugh: F(A,B,C,D)=Σm(1,3,5,8,9,11,15)+d(10,13) (CSE 1202 Q2b)
+- [3 marks] Minimize i) F(A,B,C,D)=Σm(3,4,5,7,8,9,10) ii) F(A,B,C)=Σm(3,4,5)+Σd(0,1,6,7) (CSE 1202 Q6a)
+- [4 marks] Define Propagation Delay and Noise Margin. (CSE 1202 Q6b)
+- [2 marks] Find 10's complement of (325.625)10. (CSE 1202 Q4a)
+- [3 marks] Implement two input X-OR gate using only two input NAND gates. (CSE 1202 Q4b)
+- [4 marks] Convert following into standard SOP: i. (A+B)'+C ii. (A+B+C')(A'+B+C)(A'+B'+C) (CSE 1202 Q4c)
+- [3 marks] Develop truth table SOP: A'B+AB C'+A'C +A B' C (CSE 1202 Q4d)
+- [2 marks] Convert binary 101101 to Gray and vice-versa. (CSE 1202 Q4e)
+- [5 marks] Explain operation and prove truth table of circuit J CLK K Q Q' NAND. (CSE 1202 Q1a is sequential but included)
+
+### Combinational_Logic
+- [6 marks] Write output expressions and draw circuit diagram of 3-bit comparator. (CSE 1202 Q2c)
+- [2 marks] Design OR gate using NAND gate. (CSE 1202 Q3a)
+- [4 marks] Draw circuit diagram full adder using two half adders. (CSE 1202 Q3b)
+- [5 marks] Implement using 8x1 Multiplexer F(A,B,C,D)=Σm(0,2,4,6,8,10,11) (CSE 1202 Q3c)
+- [3 marks] Draw block diagram of 16x1 MUX. (CSE 1202 Q3d)
+- [6 marks] Implement following using PLA: F1=Σm(1,2,3,6) F2=Σm(0,1,5,7) F3=Σm(5,6) F4=Σm(1,2,3,4,7) (CSE 1202 Q5a)
+- [4 marks] Explain Race Condition in Flip-Flop with circuit diagram and truth table. (CSE 1202 Q5b)
+- [4 marks] Draw block diagram and truth table BCD to 7 segment display. (CSE 1202 Q5c)
+- [5 marks] Describe 8x1 MUX with Circuit diagram and output expression. (CSE 1202 Q6c)
+
+### Sequential_Logic_Memory
+- [4 marks] Describe Shift Register and Decade counter. (CSE 1202 Q1b)
+- [5 marks] Explain working principal of S-R flip flop with NAND gate. (CSE 1202 Q1c)
+- [2 marks] What is counter modulus? (CSE 1202 Q7a)
+- [3 marks] Design 4-bit parallel adder. (CSE 1202 Q7b) — also combinational
+- [1 marks] What is difference between S-R flip-flop and J-K flip-flop? (CSE 1202 Q7c)
+- [4 marks] Draw circuit diagram J-K flip-flop with truth table. (CSE 1202 Q7d)
+- [4 marks] Prove universality of NOR gate. (CSE 1202 Q7e)
+
+### Thermodynamics_Heat
+- [3 marks] What do you mean by entropy? Prove entropy constant in reversible process. (PHY Q1a)
+- [7 marks] What is adiabatic change? For adiabatic prove PV^γ=Constant. (PHY Q1b)
+- [4 marks] Motor car tire 2 atm at 25°C suddenly bursts find resulting temperature (γ=1.4) (PHY Q1c)
+- [3 marks] Define: (i) Degrees of freedom (ii) 2nd law of thermodynamics. (PHY Q2a)
+- [7 marks] Find equation of work done for expansion in adiabatic and isothermal process. (PHY Q2b)
+- [4 marks] Carnot engine T1=7°C efficiency 50% desire 70% By how many degrees should high temp increase? (PHY Q2c)
+- [3 marks] Define packing fraction etc but crystal.
+- [3 marks] Define terms: Polarization, Double refraction, Nicol prism. (PHY Q7a)
+- [7 marks] State and explain Brewster's Law. From Brewster show polarizing angle reflected/refracted perpendicular. (PHY Q7b)
+- [4 marks] Refractive index plastic 1.25 calculate angle of refraction for ray incident at polarizing angle. (PHY Q7c)
+
+### Oscillations_Waves
+- [3 marks] What Simple Harmonic Oscillation? Write characteristics. (PHY Q3a)
+- [7 marks] Show maximum K.E and maximum potential energy is same and equal to total energy. (PHY Q3b)
+- [4 marks] Body vibrating SHM amplitude 15 cm frequency 4 Hz Compute (i) max acceleration/velocity (ii) acceleration/velocity when displacement 9 cm. (PHY Q3c)
+- [3 marks] What is (i) Particle velocity (ii) damped harmonic (iii) reduce mass (PHY Q4a)
+- [7 marks] For damped prove x=e^{-bt}Acos(wt+δ) (PHY Q4b)
+- [4 marks] Velocity simple harmonic wave 30cm/s At t=0 displacement =4 sin 2π x/100 Find equation for displacement at t=2s. (PHY Q4c)
+
+### Physical_Optics
+- [5 marks] What are Newton's rings and discuss why Centre always dark. (PHY Q6a)
+- [5 marks] In interference show width bright and dark fringe always equal. (PHY Q6b)
+- [4 marks] Newton's ring diameter 15th 0.59cm 5th 0.336cm radius plano-convex 100cm calculate wavelength. (PHY Q6c)
+
+### Crystal_Structure_SolidState
+- [5 marks] Define packing fraction. Calculate for Simple cubic. (PHY Q5a)
+- [6 marks] What do you mean by Miller indices? Show inter-planar distance orthorhombic d=1/√((h/a)²+(k/b)²+(l/c)²) (PHY Q5b)
+- [3 marks] Show in simple cubic separation between (100),(110),(111) ratio 1:0.71:0.58. (PHY Q5c)
+
+### Integration_Techniques_Applications
+- [4 marks] Integrate i) ∫(x+sin x)/(1+cos x) dx ii) ∫ dx/(sin^{1/2} x cos^{7/2} x) (MATH Q1a 2×2)
+- [4 marks] Find surface area of solid generated by revolving parabola y²=4ax between x=0 and x=a about x-axis. (MATH Q1b)
+- [6 marks] Evaluate (any two): i) ∫√(x²-a²)/x³ dx ii) ∫ dx/(5+4 sin 2x) iii) ∫ tan^{-1}√x dx (MATH Q1c 3×2)
+- [5 marks] Show arc length of Curve y=ln sec x from 0 to π/3 is ln(2+√3) (MATH Q5a)
+- [5 marks] If bacteria culture increase proportional etc but differential.
+
+### Differential_Equations
+- [2 marks] Define Order and Degree with example. (MATH Q2a)
+- [3 marks] Form DE representing family curves y=e^x(a cos x+b sin x) eliminating a,b (MATH Q2b)
+- [9 marks] Solve (i) dy/dx=y/x+tan y/x (ii) cos²x dy/dx+y=tanx (iii) sin^{-1}(dy/dx)=x+y (MATH Q2c)
+- [6 marks] Define linear. Solve (1-x²)dy/dx-xy=1 (MATH Q3a)
+- [4 marks] Show necessary/sufficient condition for exact Mdx+Ndy=0 to be exact is dM/dy=dN/dx (MATH Q3b)
+- [4 marks] Solve: (e^y+1)cosx dx+e^y sinx dy=0 (MATH Q3c)
+- [5 marks] Show y=(x²+c)e^{-x} where c constant is general solution dy/dx+y=2xe^{-x}. Also find particular y(-1)=e+3 (MATH Q7a)
+- [4 marks] Find DE whose solution y=ae^x+be^{-x}+c cosx+d sinx (MATH Q7b)
+- [5 marks] Evaluate improper ∫_{-∞}^{∞} x/(x^4+1) dx (MATH Q7c) — also integration
+- [4 marks] Number of bacteria culture increase proportional number present 10k initially After hour 25k Find doubling period? (MATH Q6a)
+- [4 marks] Using Euler's method to dy/dx=x+y² with y(0)=1 for x=0 to 0.4 h=0.1 (MATH Q5b)
+- [5 marks] If temperature air 20°C substance cools 100°C to 60°C in 10 min find after 40 min. (MATH Q5c)
+
+### Series_Taylor_Maclaurin
+- [2 marks] Define convergency/divergency of series. (MATH Q4a)
+- [6 marks] Test series for convergence: (i) Σ 1/(2n!) (ii) Σ sqrt((n²+1)/(2n²+1))^n (MATH Q4b)
+- [6 marks] Apply Taylor's method to find y(x) at x=1.1 and 1.2 by solving dy/dx=x²+y² and y(1)=2.3. (MATH Q4c)
+- [5 marks] Expand log(1+x) in power of x by Maclaurin. (MATH Q6b)
+- [5 marks] Find perimeter of cardioid r=2(1-cosθ) (MATH Q6c)
+
+### Numerical_Methods
+- (Euler/Taylor included above)
+
+### English_Comprehension
+- [15 marks] Passage good governance — 1. Answer questions a-e central idea, factors, responsibility, aid orgs, meaning 5; 2. Meanings viable/measure/agenda/emerge/requirement 5; 3. Précis 5. (ENG Part A)
+
+### English_Grammar
+- [5 marks] Correct any five sentences: I went to bazaar with a view to buy ... (ENG Q4)
+- [5 marks] Transform any five as directed. (ENG Q5)
+- [5 marks] Fill gaps correct form of verbs: Trees contribute ... tree fair (a)__(begin) ... (ENG Q6)
+- [5 marks] Fill blanks suitable article: (a)__idle man and (b)__active man cannot be equal ... (ENG Q7)
+- [5 marks] Change narrative style by using in direct speech: He said "I can chop some wood today"... (ENG Q8)
+
+### English_Writing
+- [8 marks] Paragraph on Food Adulteration or Dengue Fever. (ENG Q9)
+- [8 marks] Application to Principal for arrangement of study tour. (ENG Q10)
+- [7 marks] Report on uncharged price hike of essential commodities. (ENG Q11)
+- [7 marks] Dialogue between two friends on 2022 FIFA World Cup. (ENG Q12)
+
+## 2020
+
+### C_Fundamentals_Tokens
+- (Partial scan only — no direct token questions in visible page 8; inferred but insufficient)
+
+### C_Operators_ControlFlow
+- [6 marks] Flowcharts with appropriate syntax for I. Nested if...else II. switch III. while (CSE 1201? page 8 Q6a)
+- [5 marks] Given mark 0-100 of Karim compute Grade A+/A/B/C/D/F (CSE 1201 Q6b 3 marks)
+- [5 marks] Write for statement to print I. 5+10+15+...+500 II. 1,3,9,27,81,243 (CSE 1201 Q6c)
+
+### C_Arrays_Pointers_Memory
+- [3 marks] What will be output? int a=20,b=5,*ptr; ptr=&a; b=*ptr; printf("%d= %d= %d",++a,b++,*ptr); (CSE 1201 Q3c)
+- [4 marks] Show memory representation int m=0,n=20; int *ptr=&m; n=*ptr; (CSE 1201 Q3d)
+- [5 marks] Write program to print elements of array in reverse order. (CSE 1201 Q7c)
+- [2 marks] What is data structure? Why array called data structure? (CSE 1201 Q7b 2+2=4)
+- [5 marks] Define Array. Explain declaration of various kinds. (CSE 1201 Q7a 2+3=5)
+
+### C_Structures_Files_Preprocessor
+- [5 marks] What is recursion? Trace fact(5) function call tree int fact(n) if n==0||1 return1 else n*fact(n-1) (CSE 1201 Q4a 1+4)
+- [4 marks] What is dynamic memory allocation? Distinguish malloc() and calloc(). (CSE 1201 Q4b 2+2)
+- [2 marks] Limitations of getchar and scanf for reading string. (CSE 1201 Q4c)
+- [2 marks] Difference between else-if ladder and switch statement. (CSE 1201 Q4d)
+- [4 marks] Explain creating, opening and closing data file in c with example. (CSE 1201 Q5a)
+- [2 marks] Difference between file opening mode r+ and w+? (CSE 1201 Q5b)
+- [2 marks] Importance of file closing? (CSE 1201 Q5c)
+- [6 marks] File sorting.text contains integer numbers. Write program read array after sorting ascending save in existing file. (CSE 1201 Q5d)
+
+### Number_Systems_BooleanAlgebra
+- [2 marks] Find 9's complement of (25.639)10 (CSE 1202 Q4a)
+- [4 marks] Prove universality of NAND and NOR gates. (CSE 1202 Q4b)
+- [3 marks] Develop truth table for SOP: A'B+ABC'+A'C'+AC (CSE 1202 Q4c)
+- [5 marks] Simplify logic circuit and implement using only NAND gates. [Circuit A C B with NOT bubbles to AND etc] (CSE 1202 Q4d)
+- [2 marks] Define fan-out, propagation delay and noise margin. (CSE 1202 Q7a)
+- [6 marks] Simplify using Quine-McCluskey: F(w,x,y,z)=Σm(0,1,3,7,8,9,11,15) (CSE 1202 Q7b)
+- [2 marks] Define fan-out and propagation delay. (CSE 1202 Q1a)
+- [4 marks] Show how two-input NAND gate can be constructed using two-input NOR? (CSE 1202 Q1b)
+- [4 marks] Simplify Boolean to minimum literals and draw diagram I. xyz+x'z+yz+x'y II. (x'+y)(x+z)+xz (CSE 1202 Q1c)
+- [4 marks] Simplify with Karnaugh F(w,x,y,z)=Σ(1,3,7,11,15) d(w,x,y,z)=Σ(0,2,5) (CSE 1202 Q1d)
+
+### Combinational_Logic
+- [2 marks] Draw circuit diagram full adder using half adders and OR gate. (CSE 1202 Q5a)
+- [5 marks] Write output expressions and draw circuit diagram 3-bit Comparator. (CSE 1202 Q5b)
+- [3 marks] Write output expressions Decimal to BCD priority encoder. (CSE 1202 Q5c)
+- [4 marks] Draw block diagram with truth table 4x16 decoder using two 3x8 decoders. (CSE 1202 Q5d)
+- [2 marks] How does priority encoder differ from ordinary encoder? (CSE 1202 Q6a)
+- [4 marks] Draw block diagram and truth table BCD to 7 segment display. (CSE 1202 Q6b)
+- [3 marks] Implement full adder circuit with decoder and two OR gates. (CSE 1202 Q6c)
+- [5 marks] Implement function using 8x1 Multiplexer F(A,B,C,D)=Σm(0,2,4,5,6,8,10,13) (CSE 1202 Q6d)
+- [6 marks] Implement functions using PLA: F1(x,y,z)=Σm(1,2,4,6) F2=Σm(0,1,6,7) F3=Σm(2,6) F4=Σm(1,2,3,5,7) (CSE 1202 Q7c)
+
+### Sequential_Logic_Memory
+- [1 marks] What is counter modulus? (CSE 1202 Q2a)
+- [5 marks] Describe with figure JK flip-flop. Benefit JK vs SR? (CSE 1202 Q2b)
+- [4 marks] Implement 4-bit synchronous counter and explain functions. (CSE 1202 Q2c)
+- [4 marks] 4-bit asynchronous ripple counter 0000 clock pulses applied reads 0100 How many pulses occurred? (CSE 1202 Q2d)
+- [4 marks] What is fundamental mode operation? Explain asynchronous sequential circuit block diagram. (CSE 1202 Q3a)
+- [2 marks] Differentiate Mealy and Moore machines. (CSE 1202 Q3b)
+- [3 marks] Explain pulse mode logic with block diagram. (CSE 1202 Q3c)
+- [5 marks] What is hazard? Design SIC hazards free network F(x,y,z)=Σ(1,3,5,7) (CSE 1202 Q3d)
+
+### Thermodynamics_Heat
+- [3 marks] What do you mean by entropy? Prove entropy increases at irreversible process. (PHY Q1a)
+- [7 marks] Mention conditions adiabatic change. Prove TV^{gamma-1}=Constant. (PHY Q1b)
+- [4 marks] At 0°C fixed amount gas expanded double in volume If gamma=1.4 find last temperature. (PHY Q1c)
+- [3 marks] Describe first law thermodynamics. Show dw=PdV. (PHY Q2a)
+- [7 marks] Describe each stage of Carnot's cycle and find efficiency. (PHY Q2b)
+- [4 marks] 40 gms Hydrogen gas at 27°C isothermally compressed to one fourth original volume Find work done R=8.4J/gm-mole. (PHY Q2c)
+
+### Oscillations_Waves
+- [3 marks] Define periodic motion and damped vibrations. (PHY Q3a)
+- [8 marks] Show total energy of system is same as maximum value of any one of two forms. (PHY Q3b)
+- [3 marks] Spring hung vertically stretched 0.02m by 4N Then 2 kg body attached pulled 0.04m What is mechanical energy oscillating system? (PHY Q3c)
+- [3 marks] What Simple Harmonic Oscillation? Characteristics. (PHY Q4a)
+- [7 marks] Show average kinetic and average potential same and constant half total energy. (PHY Q4b)
+- [4 marks] Body SHM max acceleration 8π m/s² max speed 1.6 m/s Find T and amplitude a. (PHY Q4c)
+- [3 marks] A source sound frequency 512 hz amplitude 0.25 cm energy flow across cm² per sec velocity 340 density 0.00129g/cm³ — also in waves but appears in PHY Q6c 2023 variant.
+
+### Physical_Optics
+- [3 marks] Write short notes on (i) interferometer (ii) resolving power (PHY Q5a)
+- [7 marks] Show interference obeys conservation principle of light. (PHY Q5b)
+- [4 marks] Green light wavelength 5100A° narrow slit double slit overall separation 10 fringes screen 200cm away is 2cm find slit separation. (PHY Q5c)
+- [3 marks] Define (i) Newton's ring (ii) Coherent source (iii) Retardation plates (PHY Q7a)
+- [7 marks] Describe Brewster's Law. From Brewster show polarizing angle reflected and refracted 90° apart. (PHY Q7b)
+- [4 marks] Sodium vapour lamp λ=0.58μm pattern screen 1.00m bright fringes 30mm apart slit separation? (PHY Q7c)
+
+### Crystal_Structure_SolidState
+- [3 marks] What is packing fraction? Why <1? Which structure large value? (PHY Q6a)
+- [7 marks] What is Miller index? Show cubic interplanar distance d_hkl = a/√(h²+k²+l²). (PHY Q6b)
+- [4 marks] Lattice constant simple lattice a find spacing between (111),(112),(113) planes. (PHY Q6c)
+
+### Integration_Techniques_Applications
+- [4 marks] What do you mean by surface of revolution? Explain surface area solid revolution. (MATH Q3a)
+- [4 marks] Find length Arc curve p²=ar from r=a to r=2a (MATH Q3b)
+- [6 marks] Find surface area solid generated by revolving cycloid x=a(θ+sinθ), y=(1+cosθ) about its base. (MATH Q3c)
+- [4 marks] Describe Simpson's rule with graph. (MATH Q4a)
+- [4 marks] Evaluate ∫_α^β √[(x-α)(β-x)] dx. (MATH Q4c)
+- [14 marks] Evaluate (i) ∫ e^{2x}[(1+sin2x)/(1+cos2x)]dx (ii) ∫ (2x²-1)/[(x+1)²(x-2)]dx (iii) ∫ x√[(1-x²)/(1+x²)]dx (iv) ∫(sin^{-1}x)²dx (MATH Q5 3.5×4)
+- [6 marks] Show series Σ [4.7.10...(3n+1)/1.2.3...n] x^n converges if x<-1/3 diverges if x≥1/3. (MATH Q4b) — also series
+- [4 marks] Find arc length parabola r(1+cosθ)=2 from 0 to π/2 is √2+ln(1+√2) (MATH Q7c is series but includes)
+- [6 marks] Find surface area cycloid already.
+
+### Differential_Equations
+- [2 marks] Define Order and Degree. (MATH Q1a)
+- [3 marks] Find DE of all straight lines at fixed distance P from origin. (MATH Q1b)
+- [9 marks] Solve (any 03) i. dy/dx=x+y ii. dy/dx=e^{x-y}+x²e^{-y} iii. y(1+xy)dx-xdy=0 iv. log(dy/dx)=ax+by (MATH Q1c)
+- [2 marks] Describe linearity with example. (MATH Q2a)
+- [4 marks] Solve IVP dy/dx+2xy=f(x),y(0)=2 where f(x)={x,0≤x<1 0,x≥1} (MATH Q2b)
+- [5 marks] State Taylor theorem remainder — series but differential.
+
+### Series_Taylor_Maclaurin
+- [7 marks] State and prove Taylor's theorem with remainder. (MATH Q6a)
+- [5 marks] Find nth Taylor polynomial for ln x in powers of (x-2). (MATH Q6b)
+- [2 marks] Write failures of Taylor's series. (MATH Q6c)
+- [4 marks] Population increase proportional number present doubled in 50 years how long triple? (MATH Q7a)
+- [5 marks] Expand e^{sin x} in Maclaurin series. (MATH Q7b)
+
+### Numerical_Methods
+- [8 marks] State Euler's method. Using Euler obtain approximation y(2.5) using h=0.1 then h=0.05 for IVP y'=0.1√y+0.4x², y(2)=4 (MATH Q2c)
+- [5 marks] Expand etc already.
+
+### English_Comprehension
+- [20 marks] Comprehension passage literature and philosophy — Q1 Answer questions 5, Q2 meanings indispensable/privileged/distinct/enmity/fantasy 5, Q3 précis 5. (ENG Part A)
+
+### English_Grammar
+- [5 marks] Correct any five sentences: I'm not in habit to take heavy luncheon ... 7 sentences. (ENG Q4)
+- [5 marks] Fill gaps correct form verbs: Parents (a)__(be)... 10 gaps. (ENG Q5)
+- [5 marks] Fill gaps articles sincerity is (a)__key ... 10 gaps. (ENG Q6)
+- [5 marks] Fill gaps prepositions happiness (a)__life ... 10 gaps. (ENG Q7)
+- [5 marks] Transform any five sentences as directed 7 sentences. (ENG Q8)
+
+### English_Writing
+- [8 marks] Paragraph safety measures minimizing infections Corona Virus (ENG Q9)
+- [7 marks] Application to Principal for arrangement debate competition. (ENG Q10)
+- [8 marks] Amplify idea Look before you leap. (ENG Q11)
+- [7 marks] Compose Email to bosom friend to celebrate his/her birthday. (ENG Q12)
